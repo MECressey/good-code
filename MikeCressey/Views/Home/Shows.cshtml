@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MikeCressey.Models.Gig>
+
+@{
+    ViewBag.Title = "Shows";
+}
+
+<h2 class="text-center">Shows</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Venue.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GigDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Details)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Venue.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GigDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Details)
+        </td>
+        @if (User.IsInRole("Admin"))
+        {
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>
+        }
+    </tr>
+}
+
+</table>
+        
+@Html.ActionLink("Previous Gigs", "OldShows", "Home", htmlAttributes: new { @class = "btn btn-primary btn-large" })
+
+<!-- a href="@Url.Action("Details", "CheckingAccounts")" class="btn btn-info" role="button">Previous Gigs</a -->

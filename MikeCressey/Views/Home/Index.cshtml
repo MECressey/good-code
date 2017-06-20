@@ -1,0 +1,104 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section id="promo" class="container-fluid promo-section section">
+    <!-- div class="jumbotron">
+        <h1>Mike Cressey</h1>
+        <p class="lead">Home of musicians.</p>
+    </div -->
+    <div class="container text-center promo-content">
+        <div class="upper-wrapper">
+            <h1 class="logo-holder"></h1>
+            <h2 class="headline">Michael Cressey</h2>
+            <div class="tagline">Please Register for Free Music</div>
+        </div>
+    </div><!--//container--> 
+
+    <div class="updates-block">
+        <div class="container updates-block-inner">
+            <div id="carousel-updates" class="carousel slide" data-ride="carousel" data-interval="6000">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="media-holder">
+                            <div class="media-thumb">
+                                <img src="@Url.Content("~/Images/mikecressey_large.jpg")" alt="" height="110" width="110">
+                                <!-- a id="video-play-triggger" class="video-play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></a -->
+                            </div>
+                        </div><!--//media-holder-->
+                        <div class="carousel-content">
+                            <h3 class="title">My new single "Love/Blue Sky Again" was released April 12, 2017</h3>
+                            <div class="desc">
+                                <!-- div class="countdown">
+                                    <span id="countdown-box" class="countdown-box"></span>till release
+                                </div -->
+                                <p class="intro">
+                                    Available for download on iTunes, Spotify, Amazon.com, CdBaby and Bandcamp now
+                                </p><!--//intro-->
+                            </div><!--//desc-->
+                            <a class="btn btn-primary btn-cta" href="https://mikecressey.bandcamp.com/track/love-blue-sky-again">Purchase here</a>
+                        </div><!--//content-container-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="carousel-content no-media-holder">
+                            <h3 class="title">My band, Old Hat, is performing on August 8, 2017 in Grantham, NH</h3>
+                            <div class="desc">
+                                <p class="intro">
+                                    We'll be back at a favorite venue "Music in the Meadows" from 6 to 8PM. We'll be joined by special guest Ed Eastridge this year.<br><!-- a href="#" class="more-link" data-toggle="modal" data-target="#modal-info">Find out more</a -->
+                                </p><!--//intro-->
+                            </div><!--//desc-->
+                            <!-- a class="btn btn-primary btn-cta" href="#">Buy Tickets</a -->
+                        </div><!--//content-container-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="media-holder">
+                            <div class="media-thumb">
+                                <img src="@Url.Content("~/images/image-thumb-1.jpg")" alt="">
+                            </div><!--//media-thumb-->
+                        </div><!--//media-holder-->
+                        <div class="carousel-content">
+                            <h3 class="title">My latest album "Angels &Aacute; Ghosts" is available at <a href="https://store.cdbaby.com/cd/michaelcressey">CdBaby</a></h3>
+                            <div class="desc">
+                                <p class="intro">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. <br><a href="#" class="more-link">More info</a>
+                                </p><!--//intro-->
+                            </div><!--//desc-->
+                            <a class="btn btn-primary btn-cta" href="#">Support Us</a>
+                        </div><!--//content-container-->
+                    </div><!--//item-->
+                </div><!--//carousel-inner-->
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-updates" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-updates" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!--//carousel-updates-->
+        </div>
+    </div><!--//updates-block-->
+</section>
+
+@section Scripts {
+    <script>
+      $(document).ready(function() {
+        $('#promo').vegas({
+            delay: 8000,
+            //overlay: '/Images/06.png',
+            //color: '#101113',
+            transition: 'zoomOut',
+            transitionDuration: 3000,
+            slides: [
+                { src: '/Images/IMG_0972.jpg' },
+                { src: '/Images/n201309121233.jpg' },
+                { src: '/Images/IMG_0973.jpg' }
+            ]
+        });
+      });
+    </script>
+}

@@ -1,0 +1,51 @@
+﻿@model PagedList.IPagedList<MikeCressey.Models.Gig>
+@using PagedList.Mvc;
+
+<!-- @@model IEnumerable<MikeCressey.Models.Gig> -->
+
+@{
+    ViewBag.Title = "Shows";
+}
+
+<h2 class="text-center">Past Performances</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Name
+            <!-- @@Html.DisplayNameFor(model => model.Venue.Name)-->
+        </th>
+        <th>City
+            <!-- @@Html.DisplayNameFor(model => model.Venue.City)-->
+        </th>
+        <th>State
+            <!-- @@Html.DisplayNameFor(model => model.Venue.State)-->
+        </th>
+        <th>Gig Date
+            <!-- @@Html.DisplayNameFor(model => model.GigDate)-->
+        </th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Venue.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Venue.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Venue.State)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GigDate)
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("OldShows",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
