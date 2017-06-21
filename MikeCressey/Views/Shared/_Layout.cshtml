@@ -34,7 +34,7 @@
                     <li>@Html.ActionLink("Studio", "Studio", "Home")</li>
                     <li>@Html.ActionLink("Bio", "About", "Home")</li>
                     <!-- li>@@Html.ActionLink("Contact", "Contact", "Home")</li -->
-                    @if (User.Identity.IsAuthenticated)
+                    @if (User.IsInRole("Admin"))
                     {
                         <li>@Html.ActionLink("Users", "Index", "RegisteredUsers")</li>
                     }
