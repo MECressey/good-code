@@ -209,6 +209,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\06.png" />
     <Content Include="Images\4WayStreet.jpg" />
+    <Content Include="Images\A&amp;G-cover-small.jpg" />
     <Content Include="Images\AllOneBand.jpg" />
     <Content Include="Images\AngelsAndGhosts-Cover.jpg" />
     <Content Include="Images\BestOfCDCover2.jpg" />
@@ -216,7 +217,7 @@
     <Content Include="Images\Coyotes.jpg" />
     <Content Include="Images\Coyotes2.jpg" />
     <Content Include="Images\Coyotes3.jpg" />
-    <Content Include="Images\image-thumb-1.jpg" />
+    <Content Include="Images\Imgp0037.jpg" />
     <Content Include="Images\IMG_0972.JPG" />
     <Content Include="Images\IMG_0973.JPG" />
     <Content Include="Images\Mike-cathy.jpg" />
@@ -226,13 +227,16 @@
     <Content Include="Images\Mike-LP.jpg" />
     <Content Include="Images\mike-mando.jpg" />
     <Content Include="Images\Mike-waterville.jpg" />
+    <Content Include="Images\Mike-WRFM-2015.jpg" />
     <Content Include="Images\mikecressey_large.jpg" />
+    <Content Include="Images\MikeWRFM.jpg" />
+    <Content Include="Images\MiM-2012-1.jpg" />
+    <Content Include="Images\MiM-2012-4.jpg" />
     <Content Include="Images\n201309121233-small.jpg" />
     <Content Include="Images\n201309121233.jpg" />
     <Content Include="Images\StairWellStringBand.jpg" />
     <Content Include="Images\sweetspot300.jpg" />
     <Content Include="Images\Thoreau-cover.jpg" />
-    <Content Include="Images\video-thumb-1.jpg" />
     <Content Include="Images\Xmas-back.jpg" />
     <Content Include="Music\CartePostal-clip.mp3" />
     <Content Include="Music\Champagne-clip.mp3" />
