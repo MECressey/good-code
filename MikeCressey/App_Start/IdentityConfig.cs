@@ -21,7 +21,7 @@ namespace MikeCressey
         {
             // Plug in your email service here to send an email.
             SmtpClient client = new SmtpClient();
-            return client.SendMailAsync("mikecressey@gmai.com",
+            return client.SendMailAsync("mikecressey@gmail.com",
                                         message.Destination,
                                         message.Subject,
                                         message.Body);

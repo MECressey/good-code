@@ -17,13 +17,13 @@
 
     <div class="updates-block">
         <div class="container updates-block-inner">
-            <div id="carousel-updates" class="carousel slide" data-ride="carousel" data-interval="6000">
+            <div id="carousel-updates" class="carousel slide" data-ride="carousel" data-interval="7000">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="media-holder">
                             <div class="media-thumb">
-                                <img src="@Url.Content("~/Images/mikecressey_large.jpg")" alt="" height="110" width="110">
+                                <img src="@Url.Content("~/Images/mikecressey_large.jpg")" alt="" height="120" width="120">
                                 <!-- a id="video-play-triggger" class="video-play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></a -->
                             </div>
                         </div><!--//media-holder-->
@@ -56,17 +56,17 @@
                     <div class="item">
                         <div class="media-holder">
                             <div class="media-thumb">
-                                <img src="@Url.Content("~/images/image-thumb-1.jpg")" alt="">
+                                <img src="@Url.Content("~/images/A&G-Cover-small.jpg")" alt="" height="120" width="120">
                             </div><!--//media-thumb-->
                         </div><!--//media-holder-->
                         <div class="carousel-content">
                             <h3 class="title">My latest album "Angels &Aacute; Ghosts" is available at <a href="https://store.cdbaby.com/cd/michaelcressey">CdBaby</a></h3>
                             <div class="desc">
                                 <p class="intro">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. <br><a href="#" class="more-link">More info</a>
+                                    The CD is a combination of new songs and newly recorded old songs that we never finished until recently.
                                 </p><!--//intro-->
                             </div><!--//desc-->
-                            <a class="btn btn-primary btn-cta" href="#">Support Us</a>
+                            <a class="btn btn-primary btn-cta" href="@Url.Action("Music", "Home")">Buy Direct</a>
                         </div><!--//content-container-->
                     </div><!--//item-->
                 </div><!--//carousel-inner-->
@@ -95,8 +95,11 @@
             transitionDuration: 3000,
             slides: [
                 { src: '/Images/IMG_0972.jpg' },
+                //{ src: '/Images/IMG_0973.jpg' }
                 { src: '/Images/n201309121233.jpg' },
-                { src: '/Images/IMG_0973.jpg' }
+                { src: '/Images/MiM-2012-1.jpg' },
+                { src: '/Images/Coyotes3.jpg' },
+                { src: '/Images/MiM-2012-4.jpg' }
             ]
         });
       });
