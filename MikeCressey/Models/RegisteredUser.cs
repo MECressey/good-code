@@ -21,6 +21,12 @@ namespace MikeCressey.Models
         [Column(TypeName = "varchar")]
         public string LastName { get; set; }
 
+        [Required]
+        [Display(Name = "Register Date")]
+        [DataType(DataType.DateTime)]
+        [DisplayFormat(DataFormatString = "{0:d}")]
+        public DateTime RegisterDate { get; set; }
+
         public virtual ApplicationUser User { get; set; }
 
         [Required]

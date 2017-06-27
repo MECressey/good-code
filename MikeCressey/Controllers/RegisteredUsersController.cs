@@ -53,6 +53,7 @@ namespace MikeCressey.Controllers
         {
             if (ModelState.IsValid)
             {
+                //registeredUser.RegisterDate = DateTime.Now.ToUniversalTime();
                 db.RegisteredUsers.Add(registeredUser);
                 db.SaveChanges();
                 return RedirectToAction("Index");
