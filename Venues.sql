@@ -18,6 +18,7 @@ INSERT INTO VENUES VALUES('Lebanon Farmer''s Market', 'Colburn Park, 51 North Pa
 INSERT INTO VENUES VALUES('Wilmot Farmers Market', 'Wilmot Flat Town Green','Wilmot', 'NH', '03287', '(603)744-2244');
 INSERT INTO VENUES VALUES('Northstar Campground', '43 Coon Brook Rd','Newport', 'NH', '03773', '(603)863-4001');
 INSERT INTO VENUES VALUES('Newport Farmer''s Market', 'Newport Town Common','Newport', 'NH', '03773', NULL);
+INSERT INTO VENUES VALUES('Norwich Farmer''s Market', 'Route 5 South','Norwich', 'VT', '05055', '(802)384-7447');
 INSERT INTO VENUES VALUES('Tri State Dance Club', 'Ellen Lambert Center, Durkey Street','Winchester', 'NH', '03470', NULL);
 INSERT INTO VENUES VALUES('Veteran''s of Foreign War', '92 S Main St','White River Junction', 'VT', '05001', '(802)295-9745');
 INSERT INTO VENUES VALUES('Elks Lodge', '10 Jefferson St','Barre', 'VT', '05641', '(802)479-9522');
@@ -32,5 +33,14 @@ INSERT INTO VENUES VALUES('American Legion Post 31', '33 Washington St','Rutland
 INSERT INTO VENUES VALUES('Mole Hill Theater', '789 Gilsum Mine Rd','Alstead', 'NH', '03602', '(603)352-2585');
 INSERT INTO VENUES VALUES('Alan’s Of Boscawen', '133 N Main St','Boscawen', 'NH', '03602', '(603)565-0295');
 INSERT INTO VENUES VALUES('New London Farmer''s Market', '25 Seamans Rd','New London', 'NH', '03257', '(603)558-8805');
-
 INSERT INTO VENUES VALUES('Bubba''s Bar & Grille', '976 NH-103','Newbury', 'NH', '03255', '(603)763-3290');
+
+INSERT INTO VENUES VALUES('South Acworth Village Store', '1068 NH-123','South Acworth', 'NH', '03607', '(603)835-6547');
+
+INSERT INTO VENUES VALUES('Page Farm', '46 Sand Hill Rd','Croydon', 'NH', '03773', '(603)863-5416');
+INSERT INTO VENUES VALUES('Hartland Farmer''s Market', '153 RT 5','Hartland', 'VT', '05048', '(603)252-1288');
+INSERT INTO VENUES VALUES('Abbott''s Glen Inn', '3542 VT-112','Jacksonville', 'VT', '05342', '(802)368-2525');
+
+INSERT INTO VENUES VALUES('Enfield Family Fair', 'Main Street/Route 4','Enfield', 'NH', '05342', NULL);
+
+INSERT INTO VENUES VALUES('Claremont Farmers'' Market', 'Broad Street Park','Claremont', 'NH', '03743', '(603)542-7019');

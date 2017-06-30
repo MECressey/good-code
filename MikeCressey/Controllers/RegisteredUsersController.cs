@@ -18,7 +18,7 @@ namespace MikeCressey.Controllers
         // GET: RegisteredUsers
         public ActionResult Index()
         {
-            var registeredUsers = db.RegisteredUsers.Include(r => r.User);
+            var registeredUsers = db.RegisteredUsers.Include(r => r.User).OrderByDescending(c => c.RegisterDate);
             return View(registeredUsers.ToList());
         }
 
