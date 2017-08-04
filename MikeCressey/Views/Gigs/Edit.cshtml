@@ -10,7 +10,7 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Gig</h4>
         <hr />
@@ -20,7 +20,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.GigDate, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.GigDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.TextBoxFor(model => model.GigDate, "{0:d}", new { htmlAttributes = new { type = "date", @class = "form-control" } })
+                <!-- @@Html.EditorFor(model => model.GigDate, new { htmlAttributes = new { @@class = "form-control" } }) -->
                 @Html.ValidationMessageFor(model => model.GigDate, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -28,7 +29,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.StartTime, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.StartTime, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.TextBoxFor(model => model.StartTime, "{0:g}", new { htmlAttributes = new { type = "date", @class = "form-control" } })
+                <!-- @@Html.EditorFor(model => model.StartTime, new { htmlAttributes = new { @@ class = "form-control" } }) -->
                 @Html.ValidationMessageFor(model => model.StartTime, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -36,7 +38,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.EndTime, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.EndTime, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.TextBoxFor(model => model.EndTime, "{0:g}", new { htmlAttributes = new { type = "date", @class = "form-control" } })
+                <!-- @@Html.EditorFor(model => model.EndTime, new { htmlAttributes = new { @@class = "form-control" } }) -->
                 @Html.ValidationMessageFor(model => model.EndTime, "", new { @class = "text-danger" })
             </div>
         </div>

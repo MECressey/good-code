@@ -1,4 +1,4 @@
-MikeCressey/obj/
+MikeCressey/obj/*
 MikeCressey/bin/
 MikeCressey.Tests/obj/
-MikeCressey.Tests/bin/
+MikeCressey.Tests/bin/**

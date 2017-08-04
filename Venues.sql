@@ -36,11 +36,15 @@ INSERT INTO VENUES VALUES('New London Farmer''s Market', '25 Seamans Rd','New Lo
 INSERT INTO VENUES VALUES('Bubba''s Bar & Grille', '976 NH-103','Newbury', 'NH', '03255', '(603)763-3290');
 
 INSERT INTO VENUES VALUES('South Acworth Village Store', '1068 NH-123','South Acworth', 'NH', '03607', '(603)835-6547');
-
 INSERT INTO VENUES VALUES('Page Farm', '46 Sand Hill Rd','Croydon', 'NH', '03773', '(603)863-5416');
 INSERT INTO VENUES VALUES('Hartland Farmer''s Market', '153 RT 5','Hartland', 'VT', '05048', '(603)252-1288');
 INSERT INTO VENUES VALUES('Abbott''s Glen Inn', '3542 VT-112','Jacksonville', 'VT', '05342', '(802)368-2525');
-
 INSERT INTO VENUES VALUES('Enfield Family Fair', 'Main Street/Route 4','Enfield', 'NH', '05342', NULL);
-
 INSERT INTO VENUES VALUES('Claremont Farmers'' Market', 'Broad Street Park','Claremont', 'NH', '03743', '(603)542-7019');
+
+INSERT INTO VENUES VALUES('Electra Nightclub', '66 Benning St','West Lebanon', 'NH', '03784', NULL);
+INSERT INTO VENUES VALUES('Manchester Farmer''s Market', '48 Concord Street','Manchester', 'NH', '03101', NULL);
+INSERT INTO VENUES VALUES('Springfield Farmers Market', 'Clinton St','Springfield', 'VT', '05156', '(802)885-4096');
+INSERT INTO VENUES VALUES('Capital City Farmers Market', '60 State St','Montpelier', 'VT', '05602', '(802)793-8347');
+INSERT INTO VENUES VALUES('Hanover Area Farmers Market', '1 E Wheelock St','Hanover', 'NH', '03755', '(603)643-3115');
+INSERT INTO VENUES VALUES('Plattsburgh Farmers'' and Crafters'' Market', 'Durkee Street','Plattsburgh', 'NY', '12901', '(518)420-4499');

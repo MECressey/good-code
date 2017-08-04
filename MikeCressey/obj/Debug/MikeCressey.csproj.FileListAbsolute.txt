@@ -72,4 +72,3 @@ C:\Web Sites\MikeCressey\MikeCressey\bin\PagedList.dll
 C:\Web Sites\MikeCressey\MikeCressey\bin\PagedList.Mvc.dll
 C:\Web Sites\MikeCressey\MikeCressey\bin\PagedList.xml
 C:\Web Sites\MikeCressey\MikeCressey\bin\PagedList.Mvc.xml
-C:\Web Sites\MikeCressey\MikeCressey\obj\Debug\MikeCressey.csprojResolveAssemblyReference.cache

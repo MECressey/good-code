@@ -14,13 +14,13 @@ namespace MikeCressey.Models
         [Required]
         [Display(Name = "Gig Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:d}")]
+        [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         public DateTime GigDate { get; set; }
 
         [Required]
         [Display(Name = "Start Time")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:t}")]
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
         public DateTime StartTime { get; set; }
 
         [Display(Name = "End Time")]
