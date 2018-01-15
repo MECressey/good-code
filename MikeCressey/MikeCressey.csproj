@@ -220,6 +220,8 @@
     <Content Include="Images\Coyotes2.jpg" />
     <Content Include="Images\Coyotes3.jpg" />
     <Content Include="Images\FlyAway.jpg" />
+    <Content Include="Images\FSA.jpg" />
+    <Content Include="Images\Image44.jpg" />
     <Content Include="Images\Imgp0037.jpg" />
     <Content Include="Images\IMG_0972.JPG" />
     <Content Include="Images\IMG_0973.JPG" />
@@ -250,6 +252,8 @@
     <Content Include="Music\Eagle%27s Wing.mp3" />
     <Content Include="Music\FaceToFace-clip.mp3" />
     <Content Include="Music\FeedTheFire-clip.mp3" />
+    <Content Include="Music\FlyAway-clip.mp3" />
+    <Content Include="Music\FullSpeedAhead-clip.mp3" />
     <Content Include="Music\GTBG-clip.mp3" />
     <Content Include="Music\Joy-clip.mp3" />
     <Content Include="Music\KindEyes-clip.mp3" />

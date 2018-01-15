@@ -1,4 +1,5 @@
-INSERT INTO VENUES VALUES('Farmer''s Table', '249 Route 10 N','Grantham', 'NH', '03753', '(603)863-9355');
+INSERT INTO VENUES VALUES('Grantham Methodist Church', '418 Route 10 South','Grantham', 'NH', '03753', '(603)863-7824');
+
 INSERT INTO VENUES VALUES('Brattleboro Area Farmers'' Market', 'Western Ave','West Brattleboro', 'VT', '05301', '(802)254-8885');
 INSERT INTO VENUES VALUES('Music in the Meadows', '113-135 Shedd Rd','Grantham', 'NH', '03753', '(802)254-8885');
 
